@@ -1,96 +1,110 @@
-body{
-    background-color: #000;
-}
+body {
+    background-color: #000000;
+    
+    }
+    
+    h1 {
+        color: #fff;
+    }
+    
+    .sidebar {
+        
+        position: fixed;
+        top: 0;
+        left: 0 ;
+        bottom: 0;
+        padding: 12px;
+        width: 300px;
+       
+    
+    }
+        
+    .sidebar_navigation{
+        background-color: #131313;
+        border-radius: 8px;
+        padding: 16px 0 0 16px;
+    }
+    
+    .sidebar_navigation .logo {
+        background: #121212;
+        display: flex;
+        border-radius: 8px;
+        padding: 16px 0 0 16px;
+    }
+    
+    .logo img {
+        width: 80px;
+    }
+    
+    .sidebar nav ul {
+        margin-top: 20px;
+        padding: 0 20px 10px 20px;
+    }
+    
+    .sidebar ul li {
+        padding: 10px 0;
+    }
+    
+    
+    .sidebar nav ul li a {
+        color: #b3b3b3;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 14px;
+        font-family: "DM Sans", sans-serif;
+    }
+    
+    
+    
+    .biblioteca {
+       background-color: #121212;
+       border-radius: 8px;
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+       padding: 4px 8px;
+       color: #b3b3b3;
+       font-weight: 600;
+       font-size: 14px;
+       margin-top:  10px;
+    
+    }
+    
+    
+    .biblioteca .conteudo_biblioteca{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .biblioteca .button_biblioteca {
+        display: flex;
+        margin-right: 10px;
+        color: #b3b3b3;
+        background-color: transparent;
+        border: 0px;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: "DM Sans", sans-serif;
+        text-align: center;
+        text-decoration: none;
+        text-transform: nome;
+        padding:20px 10px;
+    }
+    
 
-.sidebar{
-    position:fixed;
-    top:0;
-    left:0;
-    bottom:0;
-    padding:12px;
-    width:300px;
-}
+    .biblioteca .button_biblioteca .fa {
+        font-size: 20px;
+        font-weight: 300;
+        color: #b3b3b3;
+        margin-right: 10px;
+        padding-right: 8px;
+    }
 
-.sidebar__navigation{
-    background-color: #121212;
-    border-radius:8px;
-    padding:16px 0 0 16px;
-}
-
-.logo{
-    background: #121212;
-    display:flex;
-    border-radius:8px ;
-    padding:16px 0 0 16px;
-}
-
-.sidebar__navigation .logo img{
-    width:80px;
-}
-
-.sidebar nav ul{
-    margin-top: 20px;
-    padding:0 20px 10px 20px;
-}
-
-.sidebar ul li{
-    padding: 10px 0;
-}
-
-.sidebar nav ul li a{
-    color: #b3b3b3;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 14px;
-    font-family: "DM Sans", sans-serif;
-}
-
-.library{
-    background-color:#121212;
-    border-radius:8px;
-    display:flex;
-    justify-content: space-between;
-    flex-direction: column;
-    padding:4px 8px;
-    color:#b3b3b3;
-    font-weight: 600;
-    font-size:14px;
-    margin-top: 10px;
-}
-
-.library .library__content{
-    display:flex;
-    justify-content: space-between;
-}
-
-.library .library__button{
-    display:flex;
-    margin-right: 10px;
-    color:#b3b3b3;
-    background-color: transparent;
-    border:0px;
-    font-size: 14px;
-    font-weight: 700;
-    font-family: "DM Sans", sans-serif;
-    text-align: center;
-    text-decoration: none;
-    text-transform: none;
-    padding:20px 10px;
-}
-
-.library .library__button .fa{
-    font-size:20px;
-    font-weight: 300;
-    color:#b3b3b3;
-    margin-right: 10px;
-    padding-right:8px;
-}
-
-.library .library__content .fa-plus{
-    margin: 24px 10px;
-}
-
-.section-playlist{
+    .biblioteca .conteudo_biblioteca .fa-plus{
+        margin: 24px 10px;
+    }
+   
+.section-playlist {
     display:flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -102,29 +116,32 @@ body{
     margin: 8px 0;
     padding:16px 20px;
     border-radius:10px;
+
 }
 
-.section-playlist .section-playlist__content{
-    display:flex;
+
+.section-playlist .section-playlist__content {
+    display: flex;
     flex-direction: column;
 }
 
-.section-playlist__content .text{
+
+.section-playlist__content .text {
     padding-bottom:14px;
     color:#FFF;
     font-family: "DM Sans", sans-serif;
 }
 
-.section-playlist__content .title{
+.section-playlist__content .title {
     font-weight: 700;
 }
 
-.section-playlist__content .subtitle{
+.section-playlist__content .subtitle {
     font-weight: 500;
     font-size: 12px;
 }
 
-.section-playlist__content .section-playlist__button{
+.section-playlist__content .section-playlist__button {
     display: flex;
     justify-content: center;
     background-color: #FFF;
@@ -141,21 +158,8 @@ body{
     width: 113px;
 }
 
-.sidebar .cookies{
-    margin:25px 20px;
-}
 
-.sidebar .cookies a{
-    color:#b3b3b3;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 500;
-    font-size:10px;
-    text-decoration: none;
-}
 
-.sidebar .cookies a:hover{
-    text-decoration: underline;
-}
 
 .languages .languages__button{
     align-items: center;
